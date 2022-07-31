@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accuweather</title>
+</head>
+
+<body>
+    <div id="header">
+      <input type="text" id="city" placeholder="Locatia ta">
+      <input type="button" id="weather" class="btn" value="Afiseaza vremea">
+      <input type="button" id="forecast" class="btn" value="Afiseaza prognoza">
+    </div>
+
+    <section id="mainContent">
+        <h2 class="name">Vremea acum:</h2>
+        <br>
+        <ul >
+            <li id="image"></li>
+            <li>Descriere: <span class="weatherNow" id="description"></span></li>
+            <li>Umiditate: <span class="weatherNow" id="humidity"></span></li>
+            <li>Presiune: <span class="weatherNow" id="pressure"></span></li>
+            <li>Temperatura curenta: <span class="weatherNow" id="temp"></span></li>
+            <li>Minima zilei: <span class="weatherNow" id="minTemp"></span></li>
+            <li>Maxima zilei: <span class="weatherNow" id="maxTemp"></span></li>
+        </ul>
+
+    </section>
+
+    <div id="weatherForDays">
+        <h2 class="name">Vremea in urmatoarele zile:</h2>
+        <br>
+        <section id="days">
+            <div class="dailyForecast" id="day1"></div>
+            <div class="dailyForecast" id="day2"></div>
+            <div class="dailyForecast" id="day3"></div>
+            <div class="dailyForecast" id="day4"></div>
+            <div class="dailyForecast" id="day5"></div>
+            <div class="dailyForecast" id="day6"></div>
+        </section>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

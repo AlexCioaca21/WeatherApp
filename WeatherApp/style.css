@@ -1,0 +1,72 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header, #mainContent, #weatherForDays {
+    background-color: white;
+    padding: 1em;
+    margin: 1%;
+    border-radius: 20px;
+    opacity: 85%;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.weatherNow {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: solid 2px grey;
+    padding: .5em;
+    background-color: white;
+    color:grey;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: black;
+    transition: 0.5 ease;
+}
+
+#city {
+    padding: .5em;
+    width: 70%;
+    border-radius: 10px;
+    color: grey;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.invalid{
+    border: 2px solid red;
+}
+
+/* #mapBox{
+    position: relative;
+    margin-top: -12em;
+    margin-left: 14em;
+} */
+
+#days{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxWithData{
+    border-bottom: solid 2px grey;
+    text-align: center;
+    line-height: 1em;
+    opacity: 85%;
+}
+
